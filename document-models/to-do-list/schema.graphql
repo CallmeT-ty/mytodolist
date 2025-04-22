@@ -1,0 +1,43 @@
+scalar Amount_Tokens
+scalar EthereumAddress
+scalar Amount_Percentage
+scalar EmailAddress
+scalar Date
+scalar DateTime
+scalar URL
+scalar Amount_Money
+scalar OLabel
+scalar Currency
+scalar PHID
+scalar OID
+scalar Amount_Fiat
+scalar Amount_Currency
+scalar Amount_Crypto
+scalar Amount
+type ToDoListState {
+  items: [ToDoItem!]!
+}
+type ToDoItem {
+  id: ID!
+  text: String!
+  checked: Boolean!
+}
+
+
+
+# operations
+
+input AddTodoItemInput {
+  id: ID!
+  text: String!
+}
+
+input UpdateTodoItemInput {
+  id: ID!
+  text: String
+  checked: Boolean
+}
+
+input DeleteTodoItemInput {
+  id: ID!
+}

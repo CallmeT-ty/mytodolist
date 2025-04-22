@@ -1,0 +1,25 @@
+{
+    "name": "To-Do List",
+    "description": "A to-do list editor",
+    "category": "productivity",
+    "publisher": {
+        "name": "Powerhouse",
+        "url": "https://powerhouse.inc"
+    },
+    "documentModels": [
+        {
+            "id": "to-do-list",
+            "name": "To-Do List"
+        }
+    ],
+    "editors": [
+        {
+            "id": "to-do-list-editor",
+            "name": "To-Do List Editor",
+            "documentTypes": ["to-do-list"]
+        }
+    ],
+    "apps": [],
+    "subgraphs": [],
+    "importScripts": []
+}
